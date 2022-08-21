@@ -4,60 +4,38 @@
     }
     .logo img{
         position: absolute;
-        left: 10px;
+        left: 40px;
         margin-top: 10px;
         width: 100px;}
 
     .mobile-menu img{
-        left: 280px;
+        left: 350px;
     }
     .container1 h1{
         position: absolute;
-        left: -35px;
+        left: 15px;
         top: 48px;
         font-size: calc(24px + 4 * ((100vw - 320px) / 160));
     }
-    .cartao{
-        position: absolute;
-        left: 35px;
-    }
-    .title-3 p{
-        max-width: 280px;
-        width: 350px;
-        top: 90px;
-        position: absolute;
-        left: 50px;
-    }
-    .title-3 h1{
-        top: 30px;
-        font-size:28px ;
-        width: 350px;
-        position: absolute;
-        left: 0;
-    }
+   
     .title {
-        margin-top:-35px ;
-        margin-left: -190px;
+        margin-top:-35px;
+        margin-left: -100px;
     }   
    
     .title h1{
 
-        
         font-size: 28px;
     }
     .footer-container{
         top: 380px;
-        left: 35px;
-        max-width: 800px;
+        left: 65px;
+        max-width: 300px;
 
-    }
-    .footer-container span{
-      
-      margin-right: 15px;
     }
  
     .container1 p{
-        left: 15px;
+        left: 65px;
         width: 250px;
         font-size: 14px;
     }
@@ -69,7 +47,7 @@
     .directory{
         display:flex;
         flex-direction: column;
-        left: 15px;
+        left: 55px;
         text-align: center;
         width: 299px;
     }
@@ -79,7 +57,7 @@
     }
     .img-container1 img{  
         top: 450px;
-        left: 17px; 
+        left: 65px; 
         display: flex;
         align-items: center;
         justify-self: center;
@@ -98,6 +76,10 @@
     .nav-logs{
         display: flex;
         flex-direction: column;
+    }
+    .cartao{
+        position: absolute;
+        left: 35px;
     }
     .log1 p{
         max-width: 150px;
@@ -149,31 +131,32 @@
     .container-3{
       height: 3500px;
     }
+    
     .cards{
         align-items: center;
         display: flex;
         flex-direction: column;
     }
     .card-1{
-       left: 50px;
+       left: 100px;
     }
     .card-2{
         position: absolute;
         top: 1000px;
-      left: 50px;
+      left: 100px;
     }
     .card-3{
         position: absolute;
         top: 1780px;
-        left: 50px;
+        left: 100px;
     }
     .card-4{
         position: absolute;
         top: 2560px;
-        left: 50px;
+        left: 100px;
     }
     footer{
-        height: 1200px;
+        height: 900px;
     }
     .img-footer{
         top: 40px;

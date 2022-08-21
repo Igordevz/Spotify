@@ -1,0 +1,234 @@
+@media (max-width: 1013px) {
+    
+    body{
+        overflow-block: none;
+        overflow-x: hidden;
+    }
+    .nav-list{
+        display:none;
+        flex-direction: row;
+    }
+    .nav-list h1{
+        display: none;
+    }
+    .nav-list a{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    .nav-list a::after{
+        content: '';
+        width: 0%;
+        height: 1px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: animator 20s ;
+        background-color: rgb(93, 97, 88);
+    }
+    @keyframes animator {
+        0%{
+
+        }
+        50%{
+            width: 50%;
+        }
+        100%{
+            width: 100%;
+            background-color: green;
+        }
+    }
+    header{
+        height: 54px;
+    }
+    .fade{
+        height: 1000px;
+    }
+    .mobile-menu img{
+        display: block;
+    }
+    .active{
+        max-width: 50px;
+        transition: ease-in-out;
+        position: absolute;
+       display: flex;
+       left: 0;
+       flex-direction:column;
+       margin-top: 100px;
+       background: black;
+      
+       height: 450px;
+       width: 450px;
+    }
+    .footer-container{
+        left: 15px;
+    }
+    .container1{
+        height: 765px;
+    }
+    .logo img{
+        top: 5px;
+    }
+    .footer-container{
+        position: absolute;
+        top: 332px;
+    }
+    .cartao{
+        position: absolute;
+        left: 35px;
+    }
+    .title-3 p{
+        max-width: 280px;
+        max-width: 350px;
+        top: 90px;
+        position: absolute;
+        left: 50px;
+    }
+    .title-3 h1{
+        top: 30px;
+        font-size:28px ;
+        max-width: 350px;
+        position: absolute;
+        left: 0;
+    }
+    .img-container1 img{   
+        
+       top: 425px;
+
+       width: 300px;
+       left: 5px;
+       
+        width: 320px;
+    }
+    .container-2{
+        height: 592px;
+    }
+    .title h1{
+        margin-left: 200px;
+    }
+    .nav-logs{
+        margin-left: -150px;
+        display: flex;
+        flex-direction: column;
+    }
+    .log1 p{
+        position: absolute;
+        left: 165px;
+        top: 190px;
+    }
+    .log1 h1{
+        position: absolute;
+        top: 122px;
+        left: 15px;
+
+    }
+    .log1 img{
+        position: absolute;
+        top: 72px;
+    }
+    .log2 p{
+        position: absolute;
+        left: 165px;
+    }
+    .log2 h1{
+        position: absolute;
+        top: 272px;
+        left: 115px;
+        max-width: 200px;
+    }
+    .log2 img{
+        position: absolute;
+        top: 240px;
+    }
+    .log3 p{
+        top: 190px;
+        left:520px;
+        max-width: 150px;
+    }
+    .log3 h1{
+        position: absolute;
+        top:    122px;
+        left:470px;
+       
+    }
+    .log3 img{
+        position: absolute;
+        top: 72px;
+        left: 200px;
+    }
+    .log4 h1{
+        position: absolute;
+
+        left:470px;
+        max-width: 200px;
+    }
+    .log4 p{
+        position: absolute;
+        left:520px;
+    }
+    .log4 img{
+        position: absolute;
+        top: 240px;
+        left: 200px;
+    }
+    .nav-logs{
+
+    }
+    .nav-logs img{
+        margin-left: 205px;
+        margin-top: 72px;
+        width: 92px;
+    }
+    .container-3{
+        height: 3500px;
+      }
+      .cards{
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+      }
+      .card-1{
+         left: 50px;
+      }
+      .card-2{
+          position: absolute;
+          top: 1000px;
+        left: 50px;
+      }
+      .card-3{
+          position: absolute;
+          top: 1780px;
+          left: 50px;
+      }
+      .card-4{
+          position: absolute;
+          top: 2560px;
+          left: 50px;
+      }
+      footer{
+          height: 1200px;
+      }
+      .img-footer{
+          top: 40px;
+          position: absolute;
+          left: 40px;
+          width: 100px;
+      }
+      .nav-footer-1{
+          top: 94px;
+          left: 0;
+      }
+      .nav-footer-2{
+          top: 310px;
+          left: 0;
+      }
+      .log-social{
+          display: none;
+      }
+      .the-end-footer{
+          display: none;
+      }
+      .nav-footer-3{
+          top: 620px;
+          left: 0;
+      }
+      }
